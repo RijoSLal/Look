@@ -3,10 +3,10 @@ Look is a powerful machine learning tool designed to uplscale satellite images, 
 
 ## Features
 
-- Upload low-resolution images.
-- Process images with the ESRGAN model for super-resolution.
-- Download the upscaled image.
-- Clean and intuitive web interface built with FastAPI, Jinja2 templates, and custom CSS styling.
+- Upload infrared (IR), ultraviolet (UV), or visible spectrum images, including satellite imagery and scientific visuals.  
+- Enhance image resolution using the powerful ESRGAN super-resolution model.  
+- Download high-quality, upscaled images with improved clarity and detail.  
+- Experience a sleek, user-friendly web interface built with FastAPI, Jinja2 templates, and custom-styled CSS for seamless interaction.
 
 ## Installation
 
