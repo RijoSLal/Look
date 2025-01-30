@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">upload</button>
+    </form>
+    {% if capture %}
+    <img src="{{ capture }}" alt="" style="width: 100px; height: 100px;">
+    {% endif %}
+    {% if capture %}
+    <img src="{{ super }}" alt="" style="width: 100px; height: 100px;">
+    {% endif %}
+</body>
+</html>
